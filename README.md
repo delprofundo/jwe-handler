@@ -30,7 +30,7 @@ requires a PEM formatted public cert or private key to encrypt or a PEM formatte
     localClientRecord = await decryptJWE( clientToken, jwaPem );
   } catch( err ) {
     console.log( "error trying the decrypt : ", err );
-    context.fail( "Unauthorized" );
+    throw error
   }
 ```
 
