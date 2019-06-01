@@ -1,0 +1,27 @@
+{
+  "name": "jwe-handler",
+  "version": "1.0.0",
+  "description": "a very simple JWE handler that takes a payload and key to perform encrypt or decrypt functions",
+  "keywords": [
+    "crypto",
+    "jose",
+    "jwe"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:delprofundo/jwe-handler.git"
+  },
+  "homepage": "https://github.com/delprofundo/jwe-handler#README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    "Bruno Watt <bruno@hypermedia.tech>"
+  ],
+  "author": "delProfundo",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "node-jose": "^1.1.3"
+  }
+}
