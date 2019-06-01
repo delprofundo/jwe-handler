@@ -36,4 +36,5 @@ requires a PEM formatted public cert or private key to encrypt or a PEM formatte
 
 author: bruno@hypermedia.tech
 
-![alt text](https://public-docs-encryption.s3-us-west-2.amazonaws.com/ht_square_small.png "hypermedia.tech")
+![alt text](https://public-docs-encryption.s3-us-west-2.amazonaws.com/ht_square_small.png )
+![hypermedia.tech](https://public-docs-encryption.s3-us-west-2.amazonaws.com/ht_square_small.png)
