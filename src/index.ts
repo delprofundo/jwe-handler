@@ -9,7 +9,7 @@ const makeKey = (pem: string) => JWK.asKey( pem, "pem" );
  * @param key
  * @returns {Promise<Promise<*>|*>}
  */
-async function decryptJWE( payload: object, key: string ) {
+export async function decryptJWE( payload: object, key: string ) {
   return decrypt( payload, await makeKey( key ));
 }
 
@@ -19,11 +19,6 @@ async function decryptJWE( payload: object, key: string ) {
  * @param key
  * @returns {Promise<*|*>}
  */
-async function createJWE( payload: object, key:string ) {
+export async function createJWE( payload: object, key:string ) {
   return encrypt( payload, await makeKey( key ));
 }
-
-module.exports = {
-  createJWE: createJWE,
-  decryptJWE: decryptJWE,
-};
