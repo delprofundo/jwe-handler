@@ -1,7 +1,7 @@
 const { JWK } = require( "node-jose" );
 const { encrypt, decrypt } = require( "./lib/jose" );
 
-const makeKey = pem => JWK.asKey( pem, "pem" );
+const makeKey = (pem: string) => JWK.asKey( pem, "pem" );
 
 /**
  * takes a cryptogram and private key returning the cleartext payload
@@ -9,7 +9,7 @@ const makeKey = pem => JWK.asKey( pem, "pem" );
  * @param key
  * @returns {Promise<Promise<*>|*>}
  */
-async function decryptJWE( payload, key ) {
+async function decryptJWE( payload: object, key: string ) {
   return decrypt( payload, await makeKey( key ));
 }
 
@@ -19,7 +19,7 @@ async function decryptJWE( payload, key ) {
  * @param key
  * @returns {Promise<*|*>}
  */
-async function createJWE( payload, key ) {
+async function createJWE( payload: object, key:string ) {
   return encrypt( payload, await makeKey( key ));
 }
 
