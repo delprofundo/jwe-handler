@@ -12,7 +12,8 @@
     "url": "git@github.com:delprofundo/jwe-handler.git"
   },
   "homepage": "https://github.com/delprofundo/jwe-handler#README.md",
-  "main": "src/index.ts",
+  "main": "built/index.ts",
+  "types": "built/index.d.ts",
   "scripts": {
     "prepublish": "./node_modules/.bin/tsc\n",
     "test": "echo \"Error: no test specified\" && exit 1"
