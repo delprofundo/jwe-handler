@@ -1,6 +1,6 @@
 {
   "name": "jwe-handler",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "a very simple JWE handler that takes a payload and key to perform encrypt or decrypt functions",
   "keywords": [
     "crypto",
