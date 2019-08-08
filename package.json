@@ -12,7 +12,7 @@
     "url": "git@github.com:delprofundo/jwe-handler.git"
   },
   "homepage": "https://github.com/delprofundo/jwe-handler#README.md",
-  "main": "./built/index.js",
+  "main": "built/index.js",
   "types": "./built/index.d.ts",
   "scripts": {
     "prepublish": "./node_modules/.bin/tsc",
