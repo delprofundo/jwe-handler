@@ -1,6 +1,6 @@
 {
   "name": "jwe-handler",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "a very simple JWE handler that takes a payload and key to perform encrypt or decrypt functions",
   "keywords": [
     "crypto",
@@ -31,5 +31,7 @@
     "@types/node-jose": "^1.1.0",
     "typescript": "^3.5.3"
   },
-  "files": ["built/**/*"]
+  "files": [
+    "built/**/*"
+  ]
 }
