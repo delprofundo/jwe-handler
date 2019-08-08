@@ -2,9 +2,9 @@
   "compilerOptions": {
     "declaration": true,
     "lib": ["es2017"],
-    "module": "commonjs",
+    "module": "es2015",
     "strict": true,
-    "target": "es5",
+    "target": "es2017",
     "outDir": "./built",
     "typeRoots": [
       "node_modules/@types"

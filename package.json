@@ -19,7 +19,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "contributors": [
-    "Bruno Watt <bruno@hypermedia.tech>"
+    "Bruno Watt <bruno@hypermedia.tech>",
+    "Paul Carter <carterpaulie@gmail.com>"
   ],
   "author": "delProfundo",
   "license": "Apache-2.0",
