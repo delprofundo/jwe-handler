@@ -9,9 +9,9 @@ const makeKey = (pem: string) => JWK.asKey( pem, "pem" );
  * @param key
  * @returns {Promise<Promise<*>|*>}
  */
-export async function decryptJWE( payload: object, key: string ) {
+export const decryptJWE = async ( payload: object, key: string ) => {
   return decrypt( payload, await makeKey( key ));
-}
+};
 
 /**
  * takes a public key and payload to create a JWE
@@ -19,6 +19,6 @@ export async function decryptJWE( payload: object, key: string ) {
  * @param key
  * @returns {Promise<*|*>}
  */
-export async function createJWE( payload: object, key:string ) {
+export const createJWE = async ( payload: object, key:string ) => {
   return encrypt( payload, await makeKey( key ));
-}
+};
