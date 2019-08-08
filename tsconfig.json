@@ -5,7 +5,7 @@
     "module": "commonjs",
     "strict": true,
     "target": "es5",
-    "outDir": "./built",
+    "outDir": "./lib",
     "typeRoots": [
       "node_modules/@types"
     ]
