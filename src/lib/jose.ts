@@ -16,7 +16,7 @@ const decrypt = async ( encrypted: string, privateKey: JWK.Key ) => {
   const decoded = decode(encrypted);
   // @ts-ignore
   const { payload } = await JWE.createDecrypt(privateKey).decrypt(decoded);
-  return JSON.parse(payload)
+  return JSON.parse(payload.toString())
 };
 
 
